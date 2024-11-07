@@ -1,0 +1,37 @@
+* {
+    background-color: whitesmoke;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(29, 29, 29);
+    margin-left: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+img {
+    margin-left: 30px;
+}
+
+p {
+    color: rgb(37, 37, 37);
+    margin-left: 35px;
+    font-family: garamond, times, serif;
+}
+
+li {
+    margin-left: 10px;
+}
+.recipe.list {
+    list-style-type: none;
+}
+
+.recipe a {
+    color: rgb(37, 37, 37);
+    font-family: garamond, times, serif;
+    font-size: large;
+}
