@@ -1,5 +1,10 @@
 * {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    box-sizing: border-box;
+}
+
+#index {
+    background-color: #F7E6C4;
 }
 
 h1, h2, h3, h4 {
@@ -26,12 +31,37 @@ p {
 li {
     margin-left: 10px;
 }
-.recipe.list {
-    list-style-type: none;
-}
 
 .recipe a {
     color: rgb(37, 37, 37);
     font-family: garamond, times, serif;
     font-size: large;
+}
+
+/* Index.html */
+.odinrecipes {
+    outline: 2px solid red;
+    text-align: center;
+    color: #606C5D;
+    font-size: 75px;
+    padding: 24px;
+    margin: 100px 0px 25px auto;
+    
+}
+
+.indexbody {
+    outline: 2px solid blue;
+    
+}
+
+.recipe.list {
+    outline: 2px solid green;
+    list-style-type: none;
+    text-align: center;
+}
+
+.recipe a {
+    color: #606C5D;
+    font-family: garamond, times, serif;
+    font-size: 25px;
 }
