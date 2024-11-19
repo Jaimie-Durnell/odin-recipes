@@ -1,46 +1,18 @@
 * {
-    /* background-color: whitesmoke; */
+    background-color: #fcf4e4;
     box-sizing: border-box;
 }
 
 #index {
-    background-color: #F7E6C4;
-}
-
-h1, h2, h3, h4 {
-    color: rgb(29, 29, 29);
-    margin-left: 30px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 500;
-}
-
-h1 {
-    font-weight: 800;
-}
-
-img {
-    margin-left: 30px;
-}
-
-p {
-    color: rgb(37, 37, 37);
-    margin-left: 35px;
-    font-family: garamond, times, serif;
+    background-color: #fcf4e4;
 }
 
 li {
-    margin-left: 10px;
+    background-color: rgba(255, 0, 0, 0);
 }
-
-.recipe a {
-    color: rgb(37, 37, 37);
-    font-family: garamond, times, serif;
-    font-size: large;
-}
-
 /* Index.html */
 .odinrecipes {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     text-align: center;
     color: #606C5D;
     font-size: 75px;
@@ -50,14 +22,19 @@ li {
 }
 
 .indexbody {
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     
 }
 
 .recipe.list {
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     list-style-type: none;
     text-align: center;
+    background-color: #fcf4e4;
+}
+
+.list {
+    background-color: #fcf4e4;
 }
 
 .recipe a {
@@ -65,3 +42,69 @@ li {
     font-family: garamond, times, serif;
     font-size: 25px;
 }
+
+
+/* recipe pages */
+.recipebody {
+    /* outline: 2px solid black; */
+    margin: 25px 75px ;
+}
+
+h2, h3, h4 {
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(29, 29, 29);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+
+h1 {
+    /* outline: 2px solid yellow; */
+    color: #606C5D;
+    text-shadow:
+    1px 1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+img {
+    /* outline: 2px dashed; */
+    border: 2px solid #F7E6C4;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.description {
+    /* outline: 2px solid blue; */
+    border: 2px solid #F7E6C4;
+    border-radius: 5px;
+    background-color: #FFF4F4;
+    margin-bottom: 15px;
+}
+
+.ingredients {
+    /* outline: 2px solid red; */
+    border: 2px solid #F7E6C4;
+    border-radius: 5px;
+    background: #FFF4F4;
+    margin-bottom: 15px;
+
+}
+
+.steps {
+    /* outline: 2px solid green; */
+    border: 2px solid #F7E6C4;
+    border-radius: 5px;
+    background-color: #FFF4F4;
+    margin-bottom: 15px;
+
+
+}
+
+ul, ol,  li, p {
+    background-color: #FFF4F4;
+}
+
